@@ -145,9 +145,14 @@
             </li>
 
             <li>
-                <img src="./img/kotlin.png" alt="Logo Kotlin" class="skill-icon">
+                <img src="./img/python_logo.png" alt="Logo Python" class="skill-icon">
                 </a>
+            </li>
 
+            <li>
+                <a href="https://www.credly.com/badges/b8aacdcf-1d86-4ab8-a824-bd86451a71d2/print" target="_blank">
+                <img src="./img/github_logo.png" alt="Logo GitHub Foundations" class="skill-icon">
+                </a>
             </li>
         </ul>
     </div>
@@ -251,134 +256,201 @@
     </div>
 
 
-    <!-- PROJETOS -->
-    <div class="container-fluid pt-2" id="projetos">
-        <div class="container text-center p-3">
-            <p class="h2 fs-1" id="projetos-titulo">Projetos</p>
-            <p id="projetos-paragrafo">Esta seção apresenta alguns projetos pessoais e acadêmicos realizados durante a
-                minha formação. Eles abordam temas como lógica de programação, estruturas de dados e outras áreas
-                essenciais do desenvolvimento de software.</p>
+<!-- PROJETOS -->
+<section class="container-fluid pt-5" id="projetos">
+  <div class="container text-center mb-4">
+    <h2 class="projetos-titulo fs-1">Projetos</h2>
+    <p class="p-3">
+      Esta seção apresenta alguns projetos pessoais e acadêmicos realizados durante a minha formação. Eles abordam temas como lógica de programação, análise de dados, estruturas de dados e outras áreas essenciais do desenvolvimento de software e outras áreas de TI.
+    </p>
+  </div>
+
+  <div class="text-center mb-4">
+    <button class="btn btn-projetos btn-outline-primary mx-1 active" data-filter=".fav">Principais</button>
+    <button class="btn btn-projetos btn-outline-primary mx-1" data-filter=".web">Web</button>
+    <button class="btn btn-projetos btn-outline-primary mx-1" data-filter=".java">Java</button>
+    <button class="btn btn-projetos btn-outline-primary mx-1" data-filter=".mobile">Mobile</button>
+    <button class="btn btn-projetos btn-outline-primary mx-1" data-filter=".python">Python</button>
+    <button class="btn btn-projetos btn-outline-primary mx-1" data-filter=".dados">Dados</button>
+    <button class="btn btn-projetos btn-outline-primary mx-1" data-filter=".outros">Outros</button>
+
+  </div>
+
+  <div class="container-fluid px-3 pb-4">
+  <div class="row g-4 justify-content-center align-items-stretch">
+
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 fav web">
+      <div class="card">
+        <img src="./gifs/demo_cookies.gif" class="card-img-top" alt="GIF demonstrando o site da couple cookies">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Couple cookies</h5>
+            <p class="card-text">Landing page da loja de cookies artesanais Couple Cookies, desenvolvida como freelancer. Esta é a versão de portifólio.</p>
+          <a href="https://helosantosdesousa.github.io/couple_cookies/" target="_blank" class="btn btn-primary mt-auto">Acesse o site</a>
         </div>
-
-        <div class="row p-2 d-flex align-items-stretch">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card h-100">
-                    <img src="./gifs/jogo da memoria.gif" class="card-img-top" alt="GIF demonstrando o jogo da memória">
-                    <div class="card-body">
-                        <h5 class="card-title">Jogo da memória</h5>
-                        <p class="card-text">Jogo da memória inspirado na série "Alquimia das Almas", desenvolvido em
-                            JavaScript. O jogador insere seu nome e o tempo é registrado enquanto tenta combinar as
-                            cartas temáticas da série. A cada acerto, o jogo avança e a pontuação é atualizada. O
-                            objetivo é combinar todas as cartas no menor tempo possível.</p>
-                        <a href="https://helosantosdesousa.github.io/Jogo-da-memoria-Alchemy-of-Souls/" target="_blank"
-                            class="btn btn-primary">Acesse o site</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card h-100">
-                    <img src="./gifs/jogo robo.gif" class="card-img-top"
-                        alt="GIF demonstrando o jogo Robot Dojo Fighter">
-                    <div class="card-body">
-                        <h5 class="card-title">Robot dojo fighter</h5>
-                        <p class="card-text">Jogo multiplayer local desenvolvido em JavaScript, onde dois jogadores
-                            competem ao som de uma música. O objetivo é seguir o ritmo e realizar as ações corretamente.
-                            Cada jogador deve reagir rapidamente para não perder pontos. O jogador que reagir mais
-                            rápido e acertar as ações vence a partida. </p>
-                        <a href="https://helosantosdesousa.github.io/robot-dojo-fighter/"  target="_blank" class="btn">Acesse o site</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card h-100">
-                    <img src="./gifs/gerenciador eventos.gif" class="card-img-top" alt="Imagem demonstrando o gerenciador de eventos">
-                    <div class="card-body">
-                        <h5 class="card-title">Sistema de gerenciamento de eventos</h5>
-                        <p class="card-text">Aplicação para gerenciar eventos criado em Java com Spring Boot, que utiliza arquitetura de microsserviços para gerenciar eventos em diferentes cidades. O projeto permite cadastrar e consultar eventos por meio de uma API REST, com integração entre back-end e front-end, utilizando banco de dados em memória.</p>
-                        <a href="https://github.com/helosantosdesousa/MS-Eventos-Cidade" target="_blank"
-                            class="btn btn-primary">Acesse o repositório</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card h-100">
-                    <img src="./gifs/alura plus.gif" class="card-img-top" alt="GIF navegando pelo site alura plus">
-                    <div class="card-body">
-                        <h5 class="card-title">Alura Plus</h5>
-                        <p class="card-text">Site inspirado no Alura+, desenvolvido durante o curso HTML e CSS:
-                            praticando HTML/CSS da Alura. O projeto simula uma plataforma de streaming de cursos online,
-                            recriando sua interface com foco em design e funcionalidade. A navegação intuitiva e a
-                            organização das seções foram projetadas para proporcionar uma experiência fluída ao usuário.
-                        </p>
-                        <a href="https://alura-plus-helosantosdesousa.vercel.app/" target="_blank" class="btn btn-primary">Acesso o
-                            site</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card h-100">
-                    <img src="./gifs/sorteador.gif" class="card-img-top"
-                        alt="GIF demonstrando o sorteador da Mega Sena">
-                    <div class="card-body">
-                        <h5 class="card-title">Sorteador Mega Sena</h5>
-                        <p class="card-text">Projeto que gera números aleatórios para a Mega-Sena de forma rápida e
-                            fácil. Com um clique, o usuário recebe uma nova combinação dentro das regras do jogo, pronto
-                            para testar a sorte!</p>
-                        <a href="https://github.com/helosantosdesousa/EstudandoMobile/tree/Sorteador" target="_blank"
-                            class="btn btn-primary">Acesse o repositório</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card h-100">
-                    <img src="./gifs/tetris.gif" class="card-img-top" alt="GIF demonstrando o jogo Tetris">
-                    <div class="card-body">
-                        <h5 class="card-title">Tetris</h5>
-                        <p class="card-text">Versão do clássico Tetris desenvolvida em Kotlin, com suporte a trilha
-                            sonora via API. O jogo preserva a mecânica original, desafiando o jogador a encaixar peças e
-                            formar linhas.</p>
-                        <a href="https://github.com/helosantosdesousa/Tetris" target="_blank" class="btn btn-primary">Acesse o
-                            repositório</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card h-100">
-                    <img src="./gifs/controle medicos.gif" class="card-img-top" alt="GIF demonstrando o jogo Tetris">
-                    <div class="card-body">
-                        <h5 class="card-title">Controle de médicos</h5>
-                        <p class="card-text">Aplicação CRUD em Java para gerenciar médicos e atendimentos, permitindo o cadastro de médicos, registro de atendimentos e consulta da quantidade de atendimentos de cada médico. Utiliza o padrão MVC e banco de dados.</p>
-                        <a href="https://github.com/helosantosdesousa/Sistemas-de-Gerenciamento-Java" target="_blank"
-                            class="btn btn-primary">Acesse o repositório</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card h-100">
-                    <img src="./gifs/super-quiz.gif" class="card-img-top"
-                        alt="GIF demonstrando o funcionamento do jogo pelo console da IDE">
-                    <div class="card-body">
-                        <h5 class="card-title">Super Quiz</h5>
-                        <p class="card-text">Super Quiz é um jogo de perguntas e respostas em Python, com 10 questões de conhecimentos gerais sobre computação. As perguntas são carregadas dinamicamente pela API Open Trivia DB, e o jogador recebe um score ao final com base nas respostas corretas. É uma maneira divertida de testar seus conhecimentos em computação.</p>
-                        <a href="https://github.com/helosantosdesousa/super-quiz" target="_blank"
-                            class="btn btn-primary">Acesse o repositório</a>
-                    </div>
-                </div>
-            </div>
-
-
-            
-
-
-        </div>
+      </div>
     </div>
+    
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 fav web">
+      <div class="card">
+        <img src="./gifs/jogo da memoria.gif" class="card-img-top" alt="GIF demonstrando o jogo da memória">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Jogo da memória</h5>
+            <p class="card-text">Jogo da memória inspirado na série "Alquimia das Almas", desenvolvido com JavaScript e design temático.</p>
+          <a href="https://helosantosdesousa.github.io/Jogo-da-memoria-Alchemy-of-Souls/" target="_blank" class="btn btn-primary mt-auto">Acesse o site</a>
+        </div>
+      </div>
+    </div>
+
+     <div class="col-12 col-sm-6 col-md-4 col-lg-3 fav mobile">
+      <div class="card">
+        <img src="./gifs/alerta_ribeirinho.gif" class="card-img-top" alt="GIF demostrando a aplicação alerta ribeirinho">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Alerta ribeirinho</h5>
+            <p class="card-text">App criado durante a graduação para apoiar comunidades em emergências. O projeto recebeu nota 10. Desenvolvido com Flutter.</p>
+          <a href="https://github.com/helosantosdesousa/alerta_ribeirinho" target="_blank" class="btn btn-primary mt-auto">Acesse o repositório</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 fav mobile">
+      <div class="card">
+        <img src="./gifs/plataforma_anonima.gif" class="card-img-top" alt="GIF demonstrando a aplicação alerta ribeirinho">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Plataforma Profissional Anônima</h5>
+          <p class="card-text">Challenge da faculdade: rede social anônima voltada para networking e desabafos profissionais. Desenvolvido com Flutter.</p>
+          <a href="https://github.com/helosantosdesousa/Plataforma-Profissional-Anonima-Flutter" target="_blank" class="btn btn-primary mt-auto">Acesse o repositório</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 fav web">
+      <div class="card">
+        <img src="./gifs/jogo robo.gif" class="card-img-top" alt="GIF demonstrando o Robot Dojo Fighter">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Robot Dojo Fighter</h5>
+          <p class="card-text">Jogo multiplayer local em JavaScript. Dois jogadores competem entre si e toca uma música tema.</p>
+          <a href="https://helosantosdesousa.github.io/robot-dojo-fighter/" target="_blank" class="btn btn-primary mt-auto">Acesse o site</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 fav java">
+      <div class="card">
+        <img src="./gifs/gerenciador eventos.gif" class="card-img-top" alt="GIF demonstrando o gerenciador de eventos">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Gerenciamento de eventos</h5>
+          <p class="card-text">Trabalho para a faculdade, uma API REST em Java Spring Boot com microsserviços e BD em memória.</p>
+          <a href="https://github.com/helosantosdesousa/MS-Eventos-Cidade" target="_blank" class="btn btn-primary mt-auto">Acesse o repositório</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 web">
+      <div class="card">
+        <img src="./gifs/alura plus.gif" class="card-img-top" alt="GIF demonstrando o site Alura Plus">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Alura Plus</h5>
+          <p class="card-text">Site inspirado no Alura+, com HTML/CSS responsivo e interface moderna. Projeto desenvolvido ao longo do curso.</p>
+          <a href="https://alura-plus-helosantosdesousa.vercel.app/" target="_blank" class="btn btn-primary mt-auto">Acesse o site</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mobile">
+      <div class="card">
+        <img src="./gifs/sorteador.gif" class="card-img-top" alt="GIF demonstrando o app sorteador Mega Sena">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Sorteador Mega Sena</h5>
+          <p class="card-text">App Flutter que gera combinações aleatórias para a Mega-Sena.</p>
+          <a href="https://github.com/helosantosdesousa/EstudandoMobile/tree/Sorteador" target="_blank" class="btn btn-primary mt-auto">Acesse o repositório</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mobile">
+      <div class="card">
+        <img src="./gifs/tetris.gif" class="card-img-top" alt="GIF demonstrando o app tetris Kotlin">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Tetris</h5>
+          <p class="card-text">Tetris em Kotlin com trilha sonora via API e jogabilidade clássica.</p>
+          <a href="https://github.com/helosantosdesousa/Tetris" target="_blank" class="btn btn-primary mt-auto">Acesse o repositório</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 java">
+      <div class="card">
+        <img src="./gifs/controle medicos.gif" class="card-img-top" alt="GIF demonstrando o controle de médicos">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Controle de médicos</h5>
+          <p class="card-text">CRUD em Java com padrão MVC para gerenciar médicos e atendimentos, roda localmente com servlets.</p>
+          <a href="https://github.com/helosantosdesousa/Sistemas-de-Gerenciamento-Java" target="_blank" class="btn btn-primary mt-auto">Acesse o repositório</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 fav python">
+      <div class="card">
+        <img src="./gifs/super-quiz.gif" class="card-img-top" alt="GIF demonstrando o super Quiz">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Super Quiz</h5>
+          <p class="card-text">Jogo em Python que utiliza perguntas da Open Trivia DB via API. Utiliza a interface Tinker e pega pergunas de tech.</p>
+          <a href="https://github.com/helosantosdesousa/super-quiz" target="_blank" class="btn btn-primary mt-auto">Acesse o repositório</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 outros">
+      <div class="card">
+        <img src="./img/foto_asteri.jpg" class="card-img-top" alt="Robô artesanal com base de madeira, LEDs roxos acesos e estrutura de papel colorido, posicionado sobre mesa com fundo de parede de tijolos.">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Projeto Asteri</h5>
+          <p class="card-text">Projeto do 1º ano da faculdade: desenvolvi um robô que estoura bexigas e criei o site do projeto. Foi uma experiência completa, que fortaleceu meu trabalho em equipe e habilidades técnicas.</p>
+          <a href="https://www.linkedin.com/posts/heloisa-santos-sousa_no-in%C3%ADcio-deste-m%C3%AAs-tive-a-oportunidade-activity-7117653997611544576-OuU4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX9yhsB9RKsMJYCUORNebaf_ZO1KdWuBTI" target="_blank" class="btn btn-primary mt-auto">Veja o projeto</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 fav outros">
+      <div class="card">
+        <img src="./img/foto_hackathon.jpg" class="card-img-top" alt="Tela com fundo preto e formas abstratas roxas e rosas nas laterais, com o texto 'Predictly' ao centro e a frase 'Dados em ofertas certeiras, sempre na hora certa' no canto inferior direito">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Hackathon Rock new Venues</h5>
+          <p class="card-text">Meu grupo criou e prototipou o Predictly, um sistema com IA que envia ofertas personalizadas no momento ideal, foco em CX.</p>
+          <a href="https://www.linkedin.com/posts/heloisa-santos-sousa_hackathon-rocknewvenues-activity-7326028306330345472-QGto?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX9yhsB9RKsMJYCUORNebaf_ZO1KdWuBTI" target="_blank" class="btn btn-primary mt-auto">Veja o projeto</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 java">
+      <div class="card">
+        <img src="./gifs/natura_spring.gif" class="card-img-top" alt="GIF demonstrando a aplicação Natura Spring">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Natura Spring</h5>
+          <p class="card-text">Challenge do 2º ano em parceria com a Natura, esse projeto foi a primeira aplicação integrando Java e banco de dados.</p>
+          <a href="https://www.linkedin.com/posts/heloisa-santos-sousa_oi-rede-nos-%C3%BAltimos-dias-finalizei-activity-7235345273575641088-CgJG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX9yhsB9RKsMJYCUORNebaf_ZO1KdWuBTI" target="_blank" class="btn btn-primary mt-auto">Veja o projeto</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 dados">
+      <div class="card">
+        <img src="./gifs/titanic.gif" class="card-img-top" alt="GIF demonstrando o caderno virtual com o código da análise">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Análise exploratória titanic</h5>
+          <p class="card-text">Análise exploratória de dados sobre os passageiros do titanic. Utilizando Python, analisei os dados para encontrar quais as tendências nos sobreviventes além de criar gráficos para visualização.</p>
+          <a href="https://www.linkedin.com/posts/heloisa-santos-sousa_analisededados-cienciadedados-datagirls-activity-7346238397750870019-wH-u?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX9yhsB9RKsMJYCUORNebaf_ZO1KdWuBTI" target="_blank" class="btn btn-primary mt-auto">Veja o projeto</a>
+        </div>
+      </div>
+    </div>
+   
+
+  </div>
+</div>
+</section>
+
+
 
     <!-- RODAPÉ CONTATO -->
     <div class="container-fluid pt-4 pb-3" id="rodape">
@@ -395,6 +467,11 @@
     </div>
 
 
+    <!-- Isotope -->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="/script/seletor.js"></script>
+
 </body>
+
 
 </html>
