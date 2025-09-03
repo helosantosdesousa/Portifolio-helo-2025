@@ -150,8 +150,10 @@ li {
 
 #projetos .row {
   justify-content: center !important;
-  text-align: center;
+  display: flex !important;
+  flex-wrap: wrap !important;
 }
+
    
 .titulo-projetos span{
     color: var(--branco);
@@ -301,5 +303,6 @@ color: var(--cinza);
     color: var(--fonte-botao-hover);
     border: none;
 }
+
 
 
