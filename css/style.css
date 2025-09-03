@@ -147,6 +147,11 @@ li {
 .projetos-titulo{
     color: var(--nav);
 }
+
+#projetos .row {
+  justify-content: center !important;
+  text-align: center;
+}
    
 .titulo-projetos span{
     color: var(--branco);
@@ -296,4 +301,5 @@ color: var(--cinza);
     color: var(--fonte-botao-hover);
     border: none;
 }
+
 
